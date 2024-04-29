@@ -57,6 +57,8 @@
 
         - Redux
 
+        - Git
+
         - Docker
 
         - Nginx
@@ -65,8 +67,8 @@
 
 ###    Работоспособность и функционал демонстрационного сервиса можно посмотреть по ссылке:
 
-                      https://rss.alancenter.ru/
+                  [https://rss.alancenter.ru/](https://rss.alancenter.ru/)
 
 ###    Также доступен swagger для просмотра API сервиса:
 
-                      https://rss.alancenter.ru/swagger/index.html
+                  [https://rss.alancenter.ru/swagger/index.html](https://rss.alancenter.ru/swagger/index.html)    
