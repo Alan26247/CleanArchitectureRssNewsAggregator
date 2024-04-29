@@ -1,0 +1,14 @@
+.content {
+    width:  100%;
+    flex-grow: 1;
+    overflow: "hidden";
+}
+
+img {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.channel_title {
+    color: blue;
+}

@@ -1,0 +1,35 @@
+.page {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1280px;
+    background-color: white;
+}
+
+.hr {
+    width: 100%;
+}
+
+.buttons {
+    display: "flex";
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.container {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.button_update {
+    margin-right: 1rem;
+    width: 200px;
+}
+
+.no_focus:focus {
+    outline: none;
+}

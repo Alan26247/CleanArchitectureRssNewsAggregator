@@ -1,0 +1,18 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                sh "docker build --tag rss_news_aggregator_prod --build-arg ENVIRONMENT=Production ."
+            }
+        }
+        stage('Run') {
+            steps {
+                sh "mkdir -p /**********************/rss_news_aggregator/"
+                sh "cp -p -r docker-compose-prod.yml /*********************/rss_news_aggregator/docker-compose.yml"
+                sh "docker compose -f /**********************/rss_news_aggregator/docker-compose.yml up -d"
+            }
+        } 
+    }
+}

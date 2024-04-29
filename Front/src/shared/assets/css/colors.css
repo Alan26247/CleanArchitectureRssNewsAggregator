@@ -1,0 +1,31 @@
+﻿.color-background {
+    background-color: #001d3d;
+}
+
+.color-header-background {
+    background-color: #ffc300;
+}
+
+.color-footer-background {
+    background-color: #003566;
+}
+
+.color-button {
+    background-color: #003566;
+}
+
+.color-header-text {
+    color: #003566;
+}
+
+.color-main-text {
+    color: white;
+}
+
+.color-text {
+    color: #d9d9d9;
+}
+
+.color-card {
+    background-color: #81c9be57;
+}

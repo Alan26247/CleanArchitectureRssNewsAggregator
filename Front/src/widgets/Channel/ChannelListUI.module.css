@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+    width: 400px;
+    gap: 3px;
+}
+
+@media (max-width: 1280px) {
+    .container {
+        width: 100%;
+    }
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title_text {
+    margin: 0;
+}

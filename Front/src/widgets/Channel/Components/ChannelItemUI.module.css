@@ -1,0 +1,33 @@
+.content {
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.title_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap:6px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.1s;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background-color: blue;
+}
+
+.image {
+    border-width: 0;
+    width: 16px;
+    height: 16px;
+}

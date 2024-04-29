@@ -1,0 +1,20 @@
+version: '3'
+services:
+  rss_news_aggregator_prod:
+    image: rss_news_aggregator_prod:latest
+    container_name: rss_news_aggregator_prod
+    restart: unless-stopped
+    ports:
+      - "*****:*****"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+    volumes:
+      - ./appsettings.json:/app/appsettings.json:ro
+      - ./wwwroot:/app/wwwroot
+    networks:
+      - prod
+
+networks:
+  prod:
+    external:
+      name: prod

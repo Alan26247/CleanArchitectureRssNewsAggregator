@@ -1,0 +1,43 @@
+﻿body {
+    margin: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Tahoma;
+    /*background-image: url('../images/laptop.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;*/
+}
+
+a:hover {
+    cursor: pointer;
+    color:aquamarine;
+}
+
+.theme-background {
+    background: linear-gradient(174deg, #297a7adb,#359f9fad,#259d9d91,#217474c4,#10abab6e);
+}
+
+.table-not-even-row {
+    background-color: #dbe3dc;
+    height: 40px;
+}
+.table-even-row {
+    background-color: #c6d0d1a3;
+    height: 40px;
+}
+
+th {
+    padding-left: 6px;
+    font-size: 12px;
+}
+
+td {
+    padding-left: 6px;
+    font-size: 12px;
+}
+

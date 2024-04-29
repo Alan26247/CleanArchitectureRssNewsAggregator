@@ -1,0 +1,20 @@
+# основная директория
+.vs/
+.idea/
+
+# ----- Core -----
+Core/bin/
+Core/obj/
+
+# ----- Infrastructure -----
+Infrastructure/bin/
+Infrastructure/obj/
+
+# ----- Web -----
+Web/bin/
+Web/obj/
+
+# ----- Tests -----
+Tests/bin/
+Tests/obj/
+/Web/wwwroot

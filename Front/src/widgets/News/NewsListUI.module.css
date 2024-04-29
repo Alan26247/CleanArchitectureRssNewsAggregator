@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 820px;
+    flex: 1;
+    gap: 3px;
+}
+
+@media (max-width: 1280px) {
+    .container {
+        width: 100%;
+    }
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3rem;
+}
+
+.title_text {
+    margin: 0;
+}
+
+.channel_title {
+    color: blue;
+}

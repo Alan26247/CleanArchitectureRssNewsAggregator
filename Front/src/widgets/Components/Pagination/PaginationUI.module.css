@@ -1,0 +1,44 @@
+.content {
+    width: 100%;
+    display:flex;
+    gap:6px;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.arrow {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1092fddb;
+    color: white;
+    cursor: pointer;
+}
+.arrow:hover {
+    background-color: #0595c9;
+}
+
+.page_button {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f4383;
+    color: white;
+    cursor: pointer;
+}
+.page_button:hover {
+    background-color:#0595c9;
+}
+
+.isSelected {
+    background-color: #005cfd
+}

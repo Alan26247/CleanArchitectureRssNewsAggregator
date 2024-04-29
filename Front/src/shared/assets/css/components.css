@@ -1,0 +1,148 @@
+﻿main {
+    width:100%;
+    box-sizing:border-box;
+    display:flex;
+    justify-content:center;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 560px;
+    box-sizing: border-box;
+    background-color: #5555556b;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius:6px;
+}
+
+.form-content {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    color: white;
+    gap: 10px;
+}
+
+button {
+    box-sizing: border-box;
+    min-height: 40px;
+    padding: 0 16px 0 16px;
+    border-radius: 3px;
+    background-color: #080;
+    border-color: #080;
+    border-style: solid;
+    color: white;
+    font-family: Tahoma;
+    font-size: 0.8em;
+}
+
+    button:hover {
+        cursor: pointer;
+    }
+
+    button:active {
+        filter: contrast(1.2);
+        background-color: #0b0;
+        cursor: pointer;
+    }
+
+.button-return {
+    width: 200px;
+}
+
+.button-command {
+    width: 200px;
+}
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    padding-left: 12px;
+    font-size: 1rem;
+    font-family: Tahoma;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #adadad;
+}
+
+    input:focus {
+        outline: none;
+    }
+
+h1:focus {
+    outline: none;
+}
+
+select {
+    min-width: 200px;
+    height: 40px;
+    border-radius: 3px;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+table {
+    margin-top: 20px;
+    border-width: 0;
+}
+
+.table-header {
+    height: 40px;
+    background-color: #e9e9e9;
+}
+
+.table-body {
+    height: 32px;
+    cursor: pointer;
+}
+
+    .table-body:hover {
+        background-color: lightgreen;
+    }
+
+.module-content {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+    .loader::after {
+        content: '';
+        box-sizing: border-box;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 3px solid;
+        border-color: #FF3D00 transparent;
+    }
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
