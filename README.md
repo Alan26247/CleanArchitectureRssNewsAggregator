@@ -67,8 +67,8 @@
 
 ###    Работоспособность и функционал демонстрационного сервиса можно посмотреть по ссылке:
 
-                  https://rss.alancenter.ru/
+                  https://rss.alancenter.online/
 
 ###    Также доступен swagger для просмотра API сервиса:
 
-                  https://rss.alancenter.ru/swagger/index.html 
+                  https://rss.alancenter.online/swagger/index.html 
